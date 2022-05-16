@@ -1,0 +1,38 @@
+{
+  "optId" : "e48aad2f-a746-4787-9f20-493a2286d900",
+  "initialFlightSequence" : [ "F01", "F02", "F03", "F04", "F05" ],
+  "flights" : [ {
+    "flightId" : "F01",
+    "scheduledTime" : 1578988800.000000000,
+    "weightMap" : [ 6000, 7600, 9200, 9200, 7600 ]
+  }, {
+    "flightId" : "F02",
+    "scheduledTime" : 1578988860.000000000,
+    "weightMap" : [ -10000, 7600, 9200, 9200, 7600 ]
+  }, {
+    "flightId" : "F03",
+    "scheduledTime" : 1578988800.000000000,
+    "weightMap" : [ -10000, -6033, -2033, 6800, 8400 ]
+  }, {
+    "flightId" : "F04",
+    "scheduledTime" : 1578988920.000000000,
+    "weightMap" : [ -20000, 15200, 18400, 18400, 15200 ]
+  }, {
+    "flightId" : "F05",
+    "scheduledTime" : 1578989100.000000000,
+    "weightMap" : [ -10000, -10000, -10000, 9200, 7600 ]
+  } ],
+  "slots" : [ {
+    "time" : 1578988800.000000000
+  }, {
+    "time" : 1578988920.000000000
+  }, {
+    "time" : 1578989040.000000000
+  }, {
+    "time" : 1578989160.000000000
+  }, {
+    "time" : 1578989280.000000000
+  } ],
+  "optimizationFramework" : "OPTAPLANNER",
+  "margins" : null
+}
